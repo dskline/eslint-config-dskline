@@ -35,10 +35,10 @@ module.exports = {
   rules: {
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/indent": "off",
-    "@typescript-eslint/member-delimiter-style": {
+    "@typescript-eslint/member-delimiter-style": ["error", {
       multiLine: typescriptDelimiter,
       singleLine: typescriptDelimiter
-    },
+    }],
     "no-console": process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     "padded-blocks": "off",
     "simple-import-sort/sort": "error"
