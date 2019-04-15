@@ -1,4 +1,9 @@
 
+const typescriptDelimiter = {
+  delimiter: "comma",
+  requireLast: false
+}
+
 module.exports = {
 
   parser: "@typescript-eslint/parser",
@@ -28,8 +33,12 @@ module.exports = {
   ],
 
   rules: {
-    "@typescript-eslint/indent": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/member-delimiter-style": {
+      multiLine: typescriptDelimiter,
+      singleLine: typescriptDelimiter
+    },
     "no-console": process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     "padded-blocks": "off",
     "simple-import-sort/sort": "error"
