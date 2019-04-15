@@ -36,8 +36,8 @@ module.exports = {
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/member-delimiter-style": ["error", {
-      multiLine: typescriptDelimiter,
-      singleLine: typescriptDelimiter
+      multiline: typescriptDelimiter,
+      singleline: typescriptDelimiter
     }],
     "no-console": process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     "padded-blocks": "off",

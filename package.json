@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dskline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Personal ESLint Configuration for projects at github.com/dskline",
   "repository": "https:/github.com/dskline/eslint-config-dskline",
   "license": "MIT",
