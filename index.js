@@ -1,7 +1,7 @@
 
 const typescriptDelimiter = {
   delimiter: "comma",
-  requireLast: false
+  requireLast: false,
 }
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
     "plugin:react/recommended",
     "react-app",
     "standard",
-    "standard-react"
+    "standard-react",
   ],
 
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
     "jest",
     "jsx-a11y",
     "promise",
-    "simple-import-sort"
+    "simple-import-sort",
   ],
 
   rules: {
@@ -39,8 +39,9 @@ module.exports = {
       multiline: typescriptDelimiter,
       singleline: typescriptDelimiter
     }],
+    "comma-dangle": ["error", "only-multiline"],
     "no-console": process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     "padded-blocks": "off",
-    "simple-import-sort/sort": "error"
+    "simple-import-sort/sort": "error",
   }
 }
