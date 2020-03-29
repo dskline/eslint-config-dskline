@@ -44,7 +44,7 @@ module.exports = {
       }
     ],
     "react/prop-types": "off",
-    "arrow-body-style": ["error", "never"],
+    "arrow-body-style": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"],
     // TODO: fix conflicts with aliasing in nextjs+typescript+babel+webpack
     // until then, let typescript handle unresolved imports
