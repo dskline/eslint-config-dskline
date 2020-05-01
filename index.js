@@ -49,7 +49,6 @@ module.exports = {
     // TODO: fix conflicts with aliasing in nextjs+typescript+babel+webpack
     // until then, let typescript handle unresolved imports
     "import/no-unresolved": "off",
-    "no-console": process.env.NODE_ENV === "production" ? "error" : "warn",
     "padded-blocks": "off",
     "simple-import-sort/sort": [
       "error",
