@@ -33,6 +33,13 @@ module.exports = {
     "simple-import-sort",
   ],
 
+  settings: {
+    "import/ignore": [
+      // Some bad formatting in this module creates an ESLint error
+      "react-native"
+    ]
+  },
+
   rules: {
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/indent": "off",
