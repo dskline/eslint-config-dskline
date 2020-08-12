@@ -57,6 +57,7 @@ module.exports = {
     // until then, let typescript handle unresolved imports
     "import/no-unresolved": "off",
     "padded-blocks": "off",
+    "jsx-a11y/no-autofocus": "off",
     "simple-import-sort/sort": [
       "error",
       {
